@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find drone_contest)/config/UAV_control.yaml"/>
+    <node pkg="drone_contest" type="UAV_control" name="UAV_control" output="screen"/>
+</launch>

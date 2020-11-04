@@ -1,0 +1,26 @@
+tracker_topic : "/darknet_ros/bounding_boxes"
+geofence_longitude : 1.0
+geofence_latitude : 1.0
+takeoff_height : 1.5
+mission_height : 10.0
+arrival_dist_thres : 0.2
+arrival_yaw_thres : 0.087266
+max_vel : 1.2
+landing_vel : 0.5
+p_gain : 1.0
+i_gain : 0.0
+d_gain : 0.0
+
+img_x : 960.0
+img_y : 540.0
+safe_distance : 0.0
+mission_local : true
+unit_len_height : 5.0
+unit_len_planar : 1.25
+waypoint_x : 5.0
+waypoint_y : 0.0
+waypoint_longitude : 0.0
+waypoint_latitude : 0.0
+timeout : 10000.0
+
+mode : 1
